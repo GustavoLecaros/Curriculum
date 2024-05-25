@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Adolfo Lecaros Lorca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div id="branding">
+            <h1><span class="highlight">Gustavo Adolfo Lecaros Lorca</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="showcase">
+    <div class="container">
+        <h1>Bienvenido a Mi Página Web</h1>
+        <p>Ingeniero Civil Industrial y Master en Dirección Financiera y Control de Gestión con más de 15 años de experiencia en cargos gerenciales.</p>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>Sobre Mí</h2>
+        <p>Con una sólida habilidad para implementar estrategias efectivas de control de gestión que optimizan el rendimiento organizacional y maximizan la rentabilidad. Mi experiencia se fundamenta en competencias clave como Análisis Financiero Avanzado, Finanzas Estructuradas, Presupuestación y Forecasting, Implementación de Indicadores de Desempeño, Gestión de Costos y Rentabilidad, y Sistemas de Control Interno.</p>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+        <h2>Experiencia Profesional</h2>
+        <h3>Gerente Corporativo de Empresas y Finanzas</h3>
+        <p>Corporación Universidad de Concepción (02/2020 – 04/2024)</p>
+        <ul>
+            <li>Desempeñar el rol de Gerente General de los Medios de Comunicación.</li>
+            <li>Mejorar la clasificación de riesgo por ICR y Humphreys.</li>
+            <li>Desarrollo e implementación de un Modelo de Control de Gestión Corporativo.</li>
+        </ul>
+
+        <h3>Gerente de Administración y Finanzas</h3>
+        <p>Lotería de Concepción (07/2019 – 02/2020)</p>
+        <ul>
+            <li>Implementar un nuevo sistema de gestión financiera.</li>
+            <li>Liderar un proyecto de reestructuración de procesos financieros.</li>
+            <li>Desarrollo e implementación de estrategias efectivas de gestión de tesorería.</li>
+        </ul>
+
+        <h3>Gerente de Administración y Finanzas Corporativo</h3>
+        <p>IPAL S.A (12/2015 – 07/2019)</p>
+        <ul>
+            <li>Reestructuración de la GAF disminuyendo los gastos en un 30%.</li>
+            <li>Implementar un programa de reducción de costos.</li>
+            <li>Certificación ISO 9001:2015 de procesos de cuentas por cobrar y pagar.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="education">
+    <div class="container">
+        <h2>Antecedentes Académicos</h2>
+        <ul>
+            <li>2023-2024: Advanced Management Program (AMP) - ESE Business School</li>
+            <li>2021: Programa de Formación de Directores - ESE Business School</li>
+            <li>2014: Diplomado Financial Risk Management - ESE Business School</li>
+            <li>2007-2009: Master en Dirección Financiera y Control de Gestión - ADM Business School Madrid, España</li>
+            <li>2005-2007: Magíster en Dirección y Administración de Empresas (MBA) - Universidad de Chile</li>
+            <li>2003: Diplomado en Gestión de Empresas para Ingenieros - Universidad de Chile</li>
+            <li>2002: Diplomado Gestión Logística - Pontificia Universidad Católica de Chile</li>
+            <li>1993-1999: Ingeniería Civil Industrial - Universidad Diego Portales</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contacto</h2>
+        <p><strong>Dirección:</strong> Valle del Maule Norte 8163, Barrio Los Valles Cousiño Macul, Peñalolen – Santiago</p>
+        <p><strong>Teléfono:</strong> (56) 9 9275 5677</p>
+        <p><strong>Email:</strong> gustavolecaros@hotmail.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>Gustavo Adolfo Lecaros Lorca &copy; 2024</p>
+</footer>
+
+</body>
+</html>
